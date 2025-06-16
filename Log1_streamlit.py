@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
+import matplotlib.pyplot as plt
 
 st.title('Model Deployment: Titanic Passenger Survival Probability Dashboard')
 
