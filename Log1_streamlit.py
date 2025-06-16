@@ -30,7 +30,7 @@ df = Passenger_profile()
 st.subheader('Passenger Details')
 st.write(df)
 
-Titanic = pd.read_csv(r"D:\Data science April2025\PycharmProjects\Titanic_train.csv")
+Titanic = pd.read_csv("Titanic_train.csv")
 Titanic["Age"].fillna(Titanic["Age"].median(), inplace=True)
 Titanic.drop(columns=["PassengerId", "Name", "Ticket", "Cabin","Embarked"], inplace=True, axis=1)
 Titanic = Titanic.dropna()
