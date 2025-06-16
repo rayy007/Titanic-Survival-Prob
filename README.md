@@ -1,0 +1,1 @@
+This Dashboard is designed in such a way that it predicts the survival probability of titanic data set by using python. If you have the information;(such as age,gender,class,ticket fare etc) of a person who is aboard the titanic ,this application can its survival probability.
